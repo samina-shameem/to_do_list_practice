@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(227, 227, 125);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    width: 400px;
+    padding: 20px;
+    background-color: #c2a194;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0, 0, 0.1);
+}
+
+h1{
+    /*color: rgb(56, 143, 237);*/
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button{
+    background-color: red;
+    color:#fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.controls{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#new-task{
+    flex:1;
+    padding: 10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+}
+
+#add-task{
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    background-color: #6b4142;
+    color:#fff;
+    cursor:pointer;
+}
