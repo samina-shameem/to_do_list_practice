@@ -30,7 +30,7 @@ function renderTasks() {
 
 //add a new task
 function addTask() {
-    const taskName = newTaskInput.vlue.trim();
+    const taskName = newTaskInput.value.trim();
     if (taskName === "") {
         alert("Task cannot be empty");
         return;
@@ -42,12 +42,14 @@ function addTask() {
         name: taskName,
         completed: false,
     };
+    console.log("adding task");
+
     tasks.push(newTask);//add task to the array
 
-    newTaskInput.vlue = "";//clear i/p
+    newTaskInput.vlue ="";//clear i/p
 
     renderTasks();//re-render the list
-    console.log("testing");
+    //console.log("testing");
 }
 
 
