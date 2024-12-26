@@ -25,6 +25,7 @@ function renderTasks() {
         index++;
 
     } while (index < tasks.length);
+    //console.log("hi");
 }
 
 //add a new task
@@ -42,8 +43,11 @@ function addTask() {
         completed: false,
     };
     tasks.push(newTask);//add task to the array
+
     newTaskInput.vlue = "";//clear i/p
+
     renderTasks();//re-render the list
+    console.log("testing");
 }
 
 
