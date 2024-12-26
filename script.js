@@ -42,11 +42,11 @@ function addTask() {
         name: taskName,
         completed: false,
     };
-    console.log("adding task");
+    //console.log("adding task");
 
     tasks.push(newTask);//add task to the array
 
-    newTaskInput.vlue ="";//clear i/p
+    newTaskInput.value ="";//clear i/p
 
     renderTasks();//re-render the list
     //console.log("testing");
